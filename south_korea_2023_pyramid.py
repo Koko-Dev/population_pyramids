@@ -34,7 +34,7 @@ ax.barh(y, females, color='#ED7D31', label='Females')
 # Labeling and aesthetics
 ax.set_yticks(y)
 ax.set_yticklabels(age_groups)
-ax.invert_yaxis()
+
 ax.set_xlabel('Population (Thousands)')
 ax.set_title('South Korea Population Pyramid — 2023', fontsize=16)
 ax.legend(loc='upper right')
